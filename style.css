@@ -1,0 +1,148 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+
+.main-header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav-links li a:hover {
+    color: #28a745;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px; 
+    background-color: #111;
+    height: 80vh;
+    gap: 10px; 
+}
+
+
+.content {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+    background-color: #218838;
+}
+
+.profile-image {
+    flex-grow: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.skills {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.skills h3 {
+    margin-bottom: 20px;
+}
+
+.skills-logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px; 
+    border-radius: 10px; 
+    
+}
+
+
+.skills-logos img {
+    width: 75px; 
+    height: 75px; 
+    opacity: 0.8;
+    object-fit: contain;
+}
+
+.skills-logos img:hover {
+    opacity: 2;
+}
+
+
+.main-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-footer p {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    color: #28a745;
+}
